@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 
-const page = () => {
+const Page = () => {
 
   useEffect( ()=>{
     let interval = setInterval( () => {
@@ -102,4 +102,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

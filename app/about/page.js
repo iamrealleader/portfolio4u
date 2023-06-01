@@ -2,11 +2,6 @@
 import Link from 'next/link'
 import Lottie from "lottie-react"
 import about from '@animations/about.json'
- 
-// export const metadata = {
-//   title: 'About - CodeBlog | Expert solutions for web developers',
-//   description: "Codeblog provides ste-by-step solutions to common web development problems. Learn how to solve issues in frontend technologies like HTML, CSS, JavaScript, and React, as well as backend technologies like the MERN stack."
-// };
 
 const About = () => {
   return (
@@ -16,7 +11,7 @@ const About = () => {
           <div className="flex flex-col-reverse md:flex-row justify-center items-center">
             <div className="aboutContent mx-2 md:mx-5">
               <h1 className='text-3xl md:text-5xl font-bold my-2 roboto'>About us</h1>
-              <p className='mx-2 indent-10 ubuntu'>Welcome to my world of web development! My name is Sabir Khan, and I am an experienced front-end developer with a passion for crafting captivating websites. With my expertise in pure HTML, CSS, SCSS, and JavaScript, I possess the skills necessary to transform your vision into a stunning reality. Whether it's a personal blog, an e-commerce platform, or a corporate website, I am committed to delivering fast and efficient solutions that not only meet your requirements but also exceed your expectations. By harnessing the power of modern frameworks such as React, Next.js, and the robust MERN stack, I ensure that your website operates seamlessly, allowing your visitors to engage with your content around the clock. So, let's collaborate and bring your online presence to life, leaving a lasting impression on your audience.</p>
+              <p className='mx-2 indent-10 ubuntu'>Welcome to my world of web development! My name is Sabir Khan, and I am an experienced front-end developer with a passion for crafting captivating websites. With my expertise in pure HTML, CSS, SCSS, and JavaScript, I possess the skills necessary to transform your vision into a stunning reality. Whether it&apos;s a personal blog, an e-commerce platform, or a corporate website, I am committed to delivering fast and efficient solutions that not only meet your requirements but also exceed your expectations. By harnessing the power of modern frameworks such as React, Next.js, and the robust MERN stack, I ensure that your website operates seamlessly, allowing your visitors to engage with your content around the clock. So, let&apos;s collaborate and bring your online presence to life, leaving a lasting impression on your audience.</p>
               <Link href='/contact'><button className="py-1 px-3 rounded-lg my-3 mx-1 text-lg font-bold  bg-green-500 text-white hover:bg-green-400">Lets Talk</button></Link>
               <div className="flex my-2 mx-2 gap-2 items-center transition-transform">
                 <Link className='myIcon' href="/">
@@ -47,7 +42,6 @@ const About = () => {
               </div>
             </div>
             <Lottie className='w-[20rem] md:w-[200rem]' animationData={about} />
-            {/* <img alt='About image' className=" w-[70vw] h-[70vw] md:w-[40vw] md:h-[40vw] " src={"/images/about.png"}></img> */}
           </div>
         </div>
         <div className="blogs my-5 md:my-10 mx-1 md:mx-4">
@@ -67,14 +61,14 @@ const About = () => {
   <details className="mb-4 select-none">
     <summary className="section-title font-bold rounded-lg cursor-pointer bg-gray-100 px-4 py-4 border-t border-b border-gray-100">Who am I ?</summary>
     <p className="section-description mt-2 px-4 py-2">
-      My name is Sabir Khan, and I am a skilled front-end developer. I specialize in creating stunning websites using the power of pure HTML, CSS, SCSS, and JavaScript. With my expertise in these technologies, I am dedicated to transforming your vision into a captivating online presence. Let's collaborate and bring your ideas to life!
+      My name is Sabir Khan, and I am a skilled front-end developer. I specialize in creating stunning websites using the power of pure HTML, CSS, SCSS, and JavaScript. With my expertise in these technologies, I am dedicated to transforming your vision into a captivating online presence. Let&apos;s collaborate and bring your ideas to life!
     </p>
   </details>
 
   <details className="mb-4 select-none">
     <summary className="section-title font-bold rounded-lg cursor-pointer bg-gray-100 px-4 py-4 border-t border-b border-gray-100">What I do?</summary>
     <p className="section-description mt-2 px-4 py-2">
-      I specialize in front-end web development, utilizing cutting-edge tools and frameworks to create exceptional websites. From responsive designs to interactive user interfaces, I ensure that your website is visually appealing and user-friendly. With my proficiency in technologies such as React, Next.js, and the MERN stack, I can deliver fast and efficient solutions tailored to your specific needs. Let's work together to build an impressive online presence for your brand!
+      I specialize in front-end web development, utilizing cutting-edge tools and frameworks to create exceptional websites. From responsive designs to interactive user interfaces, I ensure that your website is visually appealing and user-friendly. With my proficiency in technologies such as React, Next.js, and the MERN stack, I can deliver fast and efficient solutions tailored to your specific needs. Let&apos;s work together to build an impressive online presence for your brand!
     </p>
   </details>
 
@@ -88,7 +82,7 @@ const About = () => {
   <details className="mb-4 select-none">
     <summary className="section-title font-bold rounded-lg cursor-pointer bg-gray-100 px-4 py-4 border-t border-b border-gray-100">Why Choose Me to Create Your Website?</summary>
     <p className="section-description mt-2 px-4 py-2">
-      When it comes to creating your website, I offer an unbeatable combination of expertise, efficiency, and reliability. With a deep understanding of front-end development and a commitment to staying up-to-date with the latest industry trends, I bring creativity and innovation to every project. I take pride in my ability to deliver fast and efficient websites that work flawlessly 24/7. Let me be your go-to front-end developer, and together, we'll create an outstanding online presence for your business.
+      When it comes to creating your website, I offer an unbeatable combination of expertise, efficiency, and reliability. With a deep understanding of front-end development and a commitment to staying up-to-date with the latest industry trends, I bring creativity and innovation to every project. I take pride in my ability to deliver fast and efficient websites that work flawlessly 24/7. Let me be your go-to front-end developer, and together, we&apos;ll create an outstanding online presence for your business.
     </p>
   </details>
 

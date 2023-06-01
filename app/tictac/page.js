@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 
-const page = () => {
+const Page = () => {
 
   useEffect( () =>{       
     let turn = "X";
@@ -117,4 +117,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
