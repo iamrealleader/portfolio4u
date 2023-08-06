@@ -78,26 +78,6 @@ body{
 }
 
 
-/* Navbar section  */
-
-nav .toggle , .toggleone , .toggletwo , .togglethree{
-  opacity: 0;
-  transform: translateX(-30px);
-}
-
-nav .toggle{
-  animation: fromLeft 1s ease-in  1s 1 forwards;
-}
-nav .toggleone{
-  animation: fromLeft 1s ease-in 1s 1 forwards;
-}
-nav .toggletwo{
-  animation: fromLeft 1s ease-in 1.5s 1 forwards;
-}
-nav .togglethree{
-  animation: fromLeft 1s ease-in 2s 1 forwards;
-}
-
 /* body section  */
 
 .myIcon{
@@ -155,6 +135,13 @@ nav .togglethree{
   align-items: center;
   height: 100vh;
   background-color: #f5f5f5;
+}
+.pop{
+  transition: transform 0.2s ease-in-out;
+}
+
+.pop:hover{
+  transform: scale(1.1);
 }
 
 
