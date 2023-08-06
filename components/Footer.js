@@ -33,7 +33,7 @@ const Footer = () => {
 
   return (
     <div className="footerSection">
-    <footer className="pt-5 text-black font-bold bg-slate-100 body-font w-[95vw] mx-auto flex flex-col justify-center items-center">
+    <footer className="pt-10 text-black font-bold bg-slate-100 body-font w-[95vw] mx-auto flex flex-col justify-center items-center">
         <div className="flex flex-wrap justify-center items-center gap-5 md:gap-20">
           <div className="flex flex-col justify-center items-center gap-2">
             <h2 className="title-font font-bold text-lg text-gray-900 tracking-widest mb-3">

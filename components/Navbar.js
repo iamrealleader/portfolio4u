@@ -72,6 +72,12 @@ function Navbar() {
                 <li onClick={() => setNavbar(!navbar)} className="toggleone font-bold text-black hover:text-yellow-600">
                   <Link href="/">Home</Link>
                 </li>
+                <li onClick={() => setNavbar(!navbar)} className="toggleone font-bold text-black hover:text-yellow-600">
+                  <a href="#projects">Projects</a>
+                </li>
+                <li onClick={() => setNavbar(!navbar)} className="toggleone font-bold text-black hover:text-yellow-600">
+                  <a href="#services">Services</a>
+                </li>
                 <li  onClick={() => setNavbar(!navbar)} className="togglethree font-bold text-black hover:text-yellow-600">
                   <Link href="/contact">Contact US</Link>
                 </li>

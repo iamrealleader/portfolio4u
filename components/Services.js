@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Services = () => {
   return (
-    <div className="services bg-white mx-2 my-5 md:my-10 flex flex-col items-center">
+    <div id="services" className="services bg-white -mt-10 -mb-10 flex flex-col items-center">
       <div className="content w-[60vw]">
         <h1 className="myservices text-xl md:text-3xl font-bold mb-3 my-5 md:my-10 poppin">My Services</h1>
       </div>

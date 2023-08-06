@@ -88,7 +88,7 @@ const Projects = () => {
 
 
   return (
-    <div className="reveal-projects py-5 bg-slate-50 mx-2 my-5 md:my-10 flex flex-col items-center">
+    <div id="projects" className="reveal-projects py-16 bg-slate-50 mx-2 flex flex-col items-center">
       <div className="content w-[60vw]">
         <h1 className="myservices font-bold mb-3">My Projects</h1>
       </div>
